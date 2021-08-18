@@ -1,0 +1,60 @@
+.mainnav{
+    margin-left: 500px;
+}
+.navbar-custom{
+    background-color: #0C0E1D;
+    color: #2C55E5;
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    font-size: 20px;
+}
+.margin{
+   margin-right:  50px ; 
+}
+.main{
+    
+    background-color: #0C0E1D;
+    height:300px
+}
+.main-img-div{
+    position: absolute;
+    
+    left: 1200px;
+    top: 61px;
+}
+
+.text1{
+      font-size: 40px;
+      color: white;
+    width:1250px;
+    
+    text-align: center;
+}
+.text2{
+    width: 573px;
+    color: white;
+    font-size: 20px ;
+    margin-top: 25px;
+    margin-left: 350px;
+    text-align: center;
+}
+.fb{
+    height: 40px;
+    margin-right: 10px;
+}
+.insta{
+    height: 40px;
+    margin-right: 10px;
+}
+.in{
+    height: 40px;
+    margin-right: 10px;
+}
+
+.github{
+    height:40px;
+}
+.icons {
+    margin-top: 50px;
+    margin-left:550px;
+}

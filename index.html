@@ -1,37 +1,72 @@
 <!DOCTYPE html>
-<!-- 
-    Hi everyone, following code is preset template,
-    where you can fill your details and your new webpage is ready to be published.
-    Details required are following:
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    $full_name: Student's Full Name. For eg: Patel Drumil Nileshbhai.
-    $github_username: Student's Github Username. For eg: weastel.
-    $profile_pic_url: Student's Profile Pic URl can be taken from any public website such as: Github, Facebook.
-    $branch: Student's Branch
-    $studying_year:Student's Year in following format:
-        1st Year:       Freshmen
-        2nd Year:       Sophomore
-        Prefinal Year:  Junior
-        Final Year:     Senior
-    
- -->
-<html>
-<head>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Pranav Arya</title>
-</head>
-<body>
-    <div class="main-content">
-        <img class="profile-pic" src="{$profile_pic}" alt="profile-pic"> 
-        <div class="content">
-            <h2 class="color"> Hello, World. </h2> <br>
-            I am <span class="color"><b>Pranav</b></span>. <br>
-            I am currently a fresher studying ECE at Indian Institute of Technology, Roorkee.
-            <p class="link"><a href="https://github.com/{$github_username}">@{$github_username}</a></p>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link href="index.css" rel="stylesheet" />
+    <title>Pranav Arya</title>
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container-fluid mainnav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active margin"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link margin" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link margin" href="#">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link margin" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link margin" href="#">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+    <div class="main">
+    
+        <div class="text1">I am UI Designer and a Passionate coder</div>
+        <div class="text2">
+          I am a Sophmore studying at IIT Roorkee in the Department of ECE a
+          skilled UI Designer, Passionate coder, and a Web Developer who
+          believes in improving his skills daily
+        </div>
+        <div class="icons"><img class="fb" src="fb.png" />
+        <img class="insta" src="insta.png" />
+        <img class="in" src="in.png" />
+        <img class="github" src="github.png" />
+        
+        
+        </div>
+      <div class="main-img-div"><img class="main-img" src="p.png" /></div>
     </div>
-</body>
-</html
+    
+  </body>
+</html>
