@@ -1,2 +1,2 @@
-# pranaviitr.github.io
+# pranav-iitr.github.io
 my portfolio
