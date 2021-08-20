@@ -1,60 +1,84 @@
-.mainnav{
-    margin-left: 500px;
+.mainnav {
+  margin-left: 500px;
 }
-.navbar-custom{
-    background-color: #0C0E1D;
-    color: #2C55E5;
-    font-family: 'Segoe UI';
-    font-weight: 700;
-    font-size: 20px;
+body {
+  background-color: #0c0e1d;
 }
-.margin{
-   margin-right:  50px ; 
+input {
+  background-color: #0c0e1d;
 }
-.main{
-    
-    background-color: #0C0E1D;
-    height:300px
+.navbar-custom {
+  background-color: #0c0e1d;
+  color: #2c55e5;
+  font-family: "Segoe UI";
+  font-weight: 700;
+  font-size: 20px;
 }
-.main-img-div{
-    position: absolute;
-    
-    left: 1200px;
-    top: 61px;
+.margin {
+  margin-right: 50px;
+}
+.main {
+  background-color: #0c0e1d;
+  height: 300px;
+}
+.main-img-div {
+  position: absolute;
+
+  left: 1200px;
+  top: 61px;
 }
 
-.text1{
-      font-size: 40px;
-      color: white;
-    width:1250px;
-    
-    text-align: center;
+.text1 {
+  font-size: 40px;
+  color: white;
+  width: 1250px;
+
+  text-align: center;
 }
-.text2{
-    width: 573px;
-    color: white;
-    font-size: 20px ;
-    margin-top: 25px;
-    margin-left: 350px;
-    text-align: center;
+.text2 {
+  width: 573px;
+  color: white;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-left: 350px;
+  text-align: center;
 }
-.fb{
-    height: 40px;
-    margin-right: 10px;
+.fb {
+  height: 40px;
+  margin-right: 10px;
 }
-.insta{
-    height: 40px;
-    margin-right: 10px;
+.insta {
+  height: 40px;
+  margin-right: 10px;
 }
-.in{
-    height: 40px;
-    margin-right: 10px;
+.in {
+  height: 40px;
+  margin-right: 10px;
 }
 
-.github{
-    height:40px;
+.github {
+  height: 40px;
 }
 .icons {
-    margin-top: 50px;
-    margin-left:550px;
+  margin-top: 50px;
+  margin-left: 550px;
+}
+.Hire_me {
+  margin-left: 550px;
+  margin-top: 40px;
+}
+label {
+  color: #2c55e5;
+}
+.button {
+  border-radius: 25px;
+  width: 200px;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  background-color: #2c55e5;
+  color: #000000;
 }
