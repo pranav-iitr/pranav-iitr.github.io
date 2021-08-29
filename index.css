@@ -80,3 +80,13 @@ input {
   background-color: #2c55e5;
   color: #000000;
 }
+.achiv_proj_header{
+  color: #2030B8;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  margin-top: 100px;
+}
